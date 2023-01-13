@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	
+	<!-- add a title (a) -->
+		<title> HN FOOD PRODUCT </title>
+			<link rel="stylesheet" href="styles/styles.css">
+			<script src = "js/myScript.js"> </script>
+			
+
+			
+	</head>
+	<body>
+		<!-- add a logo (b) -->
+		<img src="Images\logo.png" width="200px" height="200px" alt=" onlin Shop  Image" class="logo">
+
+		<center>
+			<!-- add a header (c)-->
+			<h1>Henry Nicon Foods Product </h1>
+
+			<!-- add a sub-header (c) -->
+			<h3> The Online Foods Store </h3>
+		</center>
+
+		<!-- add a horizontal line (d)-->
+		<hr style="width:100%; height: 100%;"></style></hr>
+		<!--time-->
+		<script type="text/javascript">
+			document.write("<center><b><font size=+3 style='color: red;'>");
+			var day = new Date();
+			var hr = day.getHours();
+			if (hr >= 0 && hr < 12) {
+				document.write("Good Morning!");
+			} else if (hr == 12) {
+				document.write("Good Noon!");
+			} else if (hr >= 12 && hr <= 17) {
+				document.write("Good Afternoon!");
+			} else {
+				document.write("Good Evening!");
+			}
+			document.write("</font></b></center>");
+		</script>
+		<hr style="doted></hr>
+
+
+		<!--slide show-->
+		<center>
+			<div class= style="max: width 6000px;">
+				<img class="mySlides" src="Images/offer/1.jpg" style="width: 100%">
+				<img class="mySlides" src="Images/offer/2.jpg" style="width:100%">
+				<img class="mySlides" src="Images/offer/3.jpg" style="width:100%">
+				<img class="mySlides" src="Images/offer/4.jpg" style="width:100%">
+			</div>
+		</center>
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) { myIndex = 1 }
+				x[myIndex - 1].style.display = "block";
+				setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+		</script>
+		<center>
+			<!-- add a buriyani and sawan (b) -->
+			<div class="row">
+				<div class="column">
+					<div class="box">
+						<a href="Buriyani_and_sawan\Buriyani_and_sawan.html"><img src="Images\Buriyani and sawan\Cinnamon Lakeside Chicken Biryani Sawan.jpg" border=1.5px alt=" Buriyani and sawan Image" class="item">
+					</div>
+					<h7> <b>Buriyani and sawan </b></h7>
+				</div>
+
+				<!-- add a Rice (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Rice/rice.html"><img src="Images\rice.jpg" border=1.5px alt=" Rice Image" class="item">
+
+					</div>
+					<h7> <b>Rice</b> </h7>
+				</div>
+
+				<!-- add a kotthu (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="kottu/kottu.html"><img src="Images\koththu.jpg" border=1.5px alt=" Kotthu Image" class="item">
+					</div>
+					<h7> <b>Kotthu</b> </h7>
+				</div>
+			</div>
+
+			<!-- add a noodles (b) -->
+			<div class="row">
+				<div class="column">
+					<div class="box">
+						<a href="Noodles/Noodels.html"><img src="Images\noodels.jpg" border=1.5px alt=" Noodles Image" class="item">
+					</div>
+					<h7><b>Noodles</b>  </h7>
+				</div>
+
+				<!-- add a pizza (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Pizza/pizza.html"><img src="Images\pizza.jpg" border=1.5px alt=" Pizza Image" class="item">
+					</div>
+					<h7><b>Pizza</b>  </h7>
+					</ul>
+				</div>
+
+				<!-- add a Chiken (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Chiken/Chiken.html"><img src="Images\chiken.jpg" border=1.5px alt=" Chiken Image" class="item">
+					</div>
+					<h7> <b>Chiken </h7></b>
+				</div>
+
+
+				<!-- add a salad (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="salad\Salad.html"><img src="Images\salad.jpg" border=1.5 alt="Salad Image" class="item">
+					</div>
+					<h7><b>Salad</b>  </h7>
+				</div>
+
+				<!-- add a Soup (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Soup\soup.html"><img src="Images/Soup.jpg" border=1.5px alt=" Soup Image" class="item">
+					</div>
+					<h7><b>Soup </b> </h7>
+				</div>
+
+
+				<!-- add a Western(buns)(b) -->
+				<div class="column">
+					<div class="box">
+						<a href="western_buns\western_buns.html"><img src="Images\buns.jpg" border=1.5pxalt =" Western(buns) Image" class="item">
+					</div>
+					<h7><b>Western(buns)</b> </h7>
+				</div>
+
+
+
+				<!-- add a dessert (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Dessert/Dessert.html"><img src="Images\Dessert.jpg" border=1.5px alt=" Dessert Image" class="item">
+					</div>
+					<h7> <b>Dessert</b> </h7>
+				</div>
+
+				<!-- add a juice (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Juice/Juice.html"><img src="Images\juice.jpg" border=1.5px alt=" Juice Image" class="item">
+					</div>
+					<h7> <b>Juice</b> </h7>
+				</div>
+
+				<!-- add a cake (b) -->
+				<div class="column">
+					<div class="box">
+						<a href="Cake/Cake.html"><img src="Images/cake.jpg" border=1.5px alt=" Cake Image" class="item">
+					</div>
+					<h7> <b>Cake </b></h7>
+				</div>
+			</div>
+
+		</center>
+		<h8><u><a></a></u></h8>
+		<a href="Feedback.html">
+			<img src="Images/feedback.jpg" width="80px" height="40px" border=1.5px></h9><br><br>
+			<h9>Contact Us..</h9> <br><br>
+
+			<h9>Contact No = 078262625</h9> <br><br>
+
+
+				<!-- add a location (c)-->
+				<left>
+					<a href="https://goo.gl/maps/mGQ3UcmcDvXNgE4Z9"><img src="Images\map.jpg" width="300px" height="100px" border=1.5px>
+				</left>
+
+
+
+				<!-- add a footer (b) -->
+				<footer>
+					<div class="footer">
+						<div>
+							<table style="width:100%">
+								<tr>
+									<div>
+										<table style="width:100%">
+											<tr>
+												<td width="50"><a href="https://www.facebook.com"><img src="Images\facebook.jpg" width="30px" height="30px" border=1.5px><h3></h3></td>
+												<td width="50"><a href="https://www.whatsapp.com"><img src="Images\whatsapp.jpg" width="30px" height="30px" border=1.5px><h3></h3></td>
+												<td width="50"><a href="https://web.telegram.org/?legacy=1#/login"><img src="Images\telegram.jpg" width="30px" height="30px" border=1.5px><h3></h3></td>
+												<td width="50"><a href="https://www.twitter.com"><img src="Images\mail.jpg" width="30px" height="30px" border=1.5px><h3></h3></td>
+												<td width="50"><h3></h3></td>
+												<td></h3></td>
+											</tr>
+										</table>
+									</div>
+
+
+
+									<img src="Images\logo.png" width="30px" height="30px" alt="Shopping Cart Image" class="logo">
+									<center><h12>Creat By Nidushan Jayalath..</h12> </center>
+									<div class="copyright" align="center" style="color: black;">
+										<script>
+
+											document.write('&copy;');
+											document.write(' 2022 - ');
+											document.write(new Date().getFullYear());
+											document.write(' njayalath@gmail.com - All Rights Reserved.');
+											document.write('<br/>Last Updated : ');
+											document.write(document.lastModified);
+										</script>
+
+
+
+
+								</tr>
+							</table>
+						</div>
+	</body>
+</html>

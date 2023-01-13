@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Feedback </title> </head>
+<body>
+    <!-- add a logo (b) -->
+	<center>
+		<img src="Images\logo.png" width = "200px" height="200px"  alt=" onlin Shop  Image" class="logo" >
+		
+		
+		<!-- add a header (c)-->
+		<h1>Henry Nicon Foods Product </h1>
+ 
+		<!-- add a sub-header (c) -->
+		<h3> The Online Foods Store </h3>
+		<br>
+		<h2> Feedback. </h2>
+		</center>
+		<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." pattern="abcdefghijklmnopqrstuvwxyz"required> <br><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." pattern="abcdefghijklmnopqrstuvwxyz" required> <br><br><br>
+
+    <label for="District">District</label>
+    <select id="District" name="District" required> 
+      <option value="australia">Gampaha</option>  
+      <option value="canada">Colombo</option>
+      <option value="usa">Kegalle</option>
+	  <option value="usa">Kurunegala</option>
+	  <option value="usa">Rathnapura</option>
+    </select> <br> <br>
+	Mobile Number:<input type="phone" id="phoneNum" placeholder="0112564260" pattern="01234567890"  required> </br> </br>
+	E-mail Address: <input type="email" id="myEmail" name="email" placeholder="abc12@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required> <br/> </br>
+
+
+    <label for="subject">Enter Your Feedback</label> <br><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" width="200px" required></textarea>
+  </form>
+</div>
+		  <script>
+			function one(){
+			alert("Saved sucessesfull");
+			}
+			</script>
+			<button onclick=one()>Submit</button>
+			
+			
+			
+			
+			
+</body>    
+</html>
