@@ -1,0 +1,120 @@
+
+body {
+  background-image: url("../Images/wa.jpg");
+  background-size:cover;
+}
+
+/*for the logo*/
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  aline:center;
+
+}
+/*item image*/
+.item {
+
+  display:grid;
+  position:relative;
+  grid-template-rows: auto:1fr;
+  border radious: 15px;
+  align-items:center;
+  width: 250px;
+  height: 250px;
+}
+/*3image aline*/
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+
+ul.main2 {
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(247, 15, 15)
+  
+}
+
+li.main{
+	float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the click link color to #111 (black) on hover */
+li a:hover {
+  background-color: blue;
+}
+/* end Navigation design */
+
+.productData {
+ background-color: white;
+ padding:3px;
+}
+
+th.col1 {
+  text-align: left;
+}
+
+th.col2 {
+  text-align: left;
+}
+
+div.tbl{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;	
+}
+
+.bttn1
+{
+	margin: px 80px 80px 80px;
+	width: 40%
+	height : 25px;
+	align-content: center;
+	background-image: url("Images\logo.png");
+	font-size: 16px;
+	font-weight: bold;
+}
+/**btn item*/
+.btnitem {
+
+  display:grid;
+  position:relative;
+  grid-template-rows: auto:1fr;
+  border radious: 15px;
+  align-items:center;
+  width: 250px;
+  height: 250px;

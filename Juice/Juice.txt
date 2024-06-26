@@ -1,0 +1,29 @@
+1 Orange Juice
+ Rs. 350.00
+Orange juice is a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges.
+
+2 mango
+ Rs. 350.00
+Mango juice is a liquid extract of the mango tree fruit, produced by squeezing or reaming mangos.
+ 
+3 lime
+ Rs. 400.00
+Lime juice is a liquid extract of the lime tree fruit, produced by squeezing or reaming limess.
+
+4 watermelon
+ Rs. 380.00
+Watermelon juice is a liquid extract of the mwatermelon tree fruit, produced by squeezing or reaming watermelons.
+
+5 oreo milkshake
+ Rs. 780.00
+This deliciously creamy Oreo milkshake is made in minutes by blending milk, ice cream, and Oreo cookies together for a kid-pleasing chilled ...
+
+
+6stoberry oreo milkshake
+ Rs. 500.00
+This super easy Strawberry Oreo Milkshake is the perfect creamy sweet treat. Think cookies and cream, chocolate covered strawberry vibes.
+
+7chocolat milkshake
+ Rs. 500.00
+
+It's a combination of a chocolate, vanilla, and strawberry shake
